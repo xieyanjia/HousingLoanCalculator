@@ -39,7 +39,11 @@ namespace housing_web
             lblTotalInterestResult.Text = "總利息支出：";
             lblTotalRepaymentResult.Text = "總還款金額：";
         }
+        private void ShowError(string message)
+        {
+            MessageBox.Show(message, "輸入錯誤", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+        }
 
-   
+
     }
 }
