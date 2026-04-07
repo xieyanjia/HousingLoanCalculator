@@ -44,6 +44,9 @@ namespace housing_web
             MessageBox.Show(message, "輸入錯誤", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
 
-
+        private string FormatMoney(double value)
+        {
+            return value.ToString("N2", CultureInfo.InvariantCulture);
+        }
     }
 }
