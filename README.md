@@ -11,7 +11,7 @@
 <img width="1046" height="824" alt="image" src="https://github.com/user-attachments/assets/1b6b3c89-e679-41d5-af12-c3381f90b57e" />
 
 
-## 一、使用說明書
+## 一、執行說明
 
 本系統為一個以 C# Windows Forms 實作之個人房貸試算器，提供使用者輸入房貸相關資訊後，即可快速計算每月還款金額與總利息等重要資訊。
 
